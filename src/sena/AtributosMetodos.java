@@ -37,12 +37,26 @@ public class AtributosMetodos {
         AtributosMetodos objeto = new AtributosMetodos();
         EstratoEmpleado pedida = new EstratoEmpleado();
         EstratoEstudiante getInf = new EstratoEstudiante();
-        
+        TareaHoroscopo horoscopo= new TareaHoroscopo();
+        ActividadCiclos whileciclo = new ActividadCiclos();
+        ActividadDeEvaluacion evalua=new ActividadDeEvaluacion();
+
         System.out.println("////////////////////ejercicio 3.4 3.5//////////////////////////////");
         pedida.ejecutar_estrato();
-        System.out.println("////////////////////ejercicio 3.6//////////////////////////////");
+        System.out.println("////////////////////ejercicio 3.6 y 3.6//////////////////////////////");
         getInf.mostrarEstudianteTres();
-
+        horoscopo.mostrarMensaje();
+        System.out.println("//////////////////// ejercicio 3.7 //////////////////////////////");
+        whileciclo.ciclo_mientras();
+        whileciclo.comienzaPorSt();
+        System.out.println("//////////////////// ejercicio 3.8 ,3.9, 3.10 //////////////////////////////");
+        System.out.println("toLowerCase()");
+        System.out.println("tan(double a)");
+        System.out.println("sort(T[] a)");
+            System.out.println("evaluacion 4.1 4.2 4.3 4.4");
+        evalua.ejecute();
+        
+        
     }
 
     void dividirDosNumero() {
